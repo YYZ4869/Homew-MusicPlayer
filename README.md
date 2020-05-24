@@ -15,10 +15,15 @@
 ## 技术要点及心得
 ****
 项目架构 UITabBarController+UINavigationController
-*参考资料：https://www.cnblogs.com/xufengyuan/p/6440733.html*     
+*参考资料：https://www.cnblogs.com/xufengyuan/p/6440733.html*   
+
 网络请求基于AFNetWorking进行简单的封装    
+
 页面布局除了用frame之外，还用了Masonry进行一些稍微复杂的页面布局    
+
 首页瀑布流布局用了UICollectionView来实现，其他列表library和专辑歌单用UITableView实现，列表在数据请求完后，把数据储存在数组，然后reloaddata完成列表渲染。    
+
+在专辑页和播放页使用了**便利构造器**，*参考资料：https://www.cnblogs.com/Rong-Shengcom/p/4939942.html*
 
 
 
